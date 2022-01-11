@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>考试语音指令系统</string>
+   <string>考试指令播放系统</string>
   </property>
   <property name="windowIcon">
    <iconset resource="ico.qrc">

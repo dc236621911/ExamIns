@@ -119,10 +119,10 @@ public:
 
     void retranslateUi(QDialog *putong)
     {
-        putong->setWindowTitle(QCoreApplication::translate("putong", "\346\231\256\351\200\232\346\250\241\345\274\217\350\200\203\350\257\225\350\257\255\351\237\263\346\214\207\344\273\244\347\263\273\347\273\237", nullptr));
+        putong->setWindowTitle(QCoreApplication::translate("putong", "\346\231\256\351\200\232\346\250\241\345\274\217\342\200\224\350\200\203\350\257\225\346\214\207\344\273\244\346\222\255\346\224\276\347\263\273\347\273\237", nullptr));
         statusLabel->setText(QCoreApplication::translate("putong", "DC\344\275\234\345\223\201", nullptr));
         pushButton->setText(QCoreApplication::translate("putong", "\347\241\256\345\256\232", nullptr));
-        label->setText(QCoreApplication::translate("putong", "\350\200\203\350\257\225\350\257\255\351\237\263\346\214\207\344\273\244\347\263\273\347\273\237\357\274\210\346\231\256\351\200\232\346\250\241\345\274\217\357\274\211", nullptr));
+        label->setText(QCoreApplication::translate("putong", "\350\200\203\350\257\225\346\214\207\344\273\244\346\222\255\346\224\276\347\263\273\347\273\237\357\274\210\346\231\256\351\200\232\346\250\241\345\274\217\357\274\211", nullptr));
         label_2->setText(QCoreApplication::translate("putong", "\350\257\267\351\200\211\346\213\251\350\200\203\350\257\225\347\247\221\347\233\256\357\274\232", nullptr));
         comboBox->setItemText(0, QCoreApplication::translate("putong", "\350\257\255\346\226\207", nullptr));
         comboBox->setItemText(1, QCoreApplication::translate("putong", "\346\225\260\345\255\246", nullptr));

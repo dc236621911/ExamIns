@@ -73,7 +73,7 @@ public:
 
     void retranslateUi(QDialog *Dialog)
     {
-        Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "\350\200\203\350\257\225\350\257\255\351\237\263\346\214\207\344\273\244\347\263\273\347\273\237", nullptr));
+        Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "\350\200\203\350\257\225\346\214\207\344\273\244\346\222\255\346\224\276\347\263\273\347\273\237", nullptr));
         gaokao->setText(QCoreApplication::translate("Dialog", "\351\253\230\350\200\203\346\250\241\345\274\217", nullptr));
         putong->setText(QCoreApplication::translate("Dialog", "\346\231\256\351\200\232\346\250\241\345\274\217", nullptr));
         startExam->setText(QCoreApplication::translate("Dialog", "\350\277\233\345\205\245\350\200\203\350\257\225", nullptr));

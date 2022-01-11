@@ -150,7 +150,7 @@ public:
 
     void retranslateUi(QDialog *ExamInfo)
     {
-        ExamInfo->setWindowTitle(QCoreApplication::translate("ExamInfo", "\350\200\203\350\257\225\350\257\255\351\237\263\346\214\207\344\273\244\347\263\273\347\273\237", nullptr));
+        ExamInfo->setWindowTitle(QCoreApplication::translate("ExamInfo", "\350\200\203\350\257\225\346\214\207\344\273\244\346\222\255\346\224\276\347\263\273\347\273\237", nullptr));
         statusLabel->setText(QCoreApplication::translate("ExamInfo", "DC\344\275\234\345\223\201", nullptr));
         label->setText(QCoreApplication::translate("ExamInfo", "\350\200\203\350\257\225\344\277\241\346\201\257", nullptr));
         label_2->setText(QCoreApplication::translate("ExamInfo", "\350\200\203\350\257\225\347\247\221\347\233\256\357\274\232", nullptr));

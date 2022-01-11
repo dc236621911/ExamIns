@@ -89,8 +89,8 @@ public:
 
     void retranslateUi(QDialog *gaokao)
     {
-        gaokao->setWindowTitle(QCoreApplication::translate("gaokao", "\351\253\230\350\200\203\346\250\241\345\274\217\350\200\203\350\257\225\350\257\255\351\237\263\346\214\207\344\273\244\347\263\273\347\273\237", nullptr));
-        label->setText(QCoreApplication::translate("gaokao", "\350\200\203\350\257\225\350\257\255\351\237\263\346\214\207\344\273\244\347\263\273\347\273\237\357\274\210\351\253\230\350\200\203\346\250\241\345\274\217\357\274\211", nullptr));
+        gaokao->setWindowTitle(QCoreApplication::translate("gaokao", "\351\253\230\350\200\203\346\250\241\345\274\217\342\200\224\350\200\203\350\257\225\346\214\207\344\273\244\346\222\255\346\224\276\347\263\273\347\273\237", nullptr));
+        label->setText(QCoreApplication::translate("gaokao", "\350\200\203\350\257\225\346\214\207\344\273\244\346\222\255\346\224\276\347\263\273\347\273\237\357\274\210\351\253\230\350\200\203\346\250\241\345\274\217\357\274\211", nullptr));
         label_2->setText(QCoreApplication::translate("gaokao", "\350\257\267\351\200\211\346\213\251\350\200\203\350\257\225\347\247\221\347\233\256\357\274\232", nullptr));
         comboBox->setItemText(0, QCoreApplication::translate("gaokao", "\350\257\255\346\226\207", nullptr));
         comboBox->setItemText(1, QCoreApplication::translate("gaokao", "\346\225\260\345\255\246", nullptr));

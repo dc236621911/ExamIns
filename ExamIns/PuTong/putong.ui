@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>普通模式考试语音指令系统</string>
+   <string>普通模式—考试指令播放系统</string>
   </property>
   <property name="windowIcon">
    <iconset resource="../ico.qrc">
@@ -100,7 +100,7 @@ border-radius:15px;
      <string notr="true">border:0px;</string>
     </property>
     <property name="text">
-     <string>考试语音指令系统（普通模式）</string>
+     <string>考试指令播放系统（普通模式）</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
