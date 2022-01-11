@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>showInfo</class>
+ <widget class="QDialog" name="showInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>指令详情</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ico.qrc">
+    <normaloff>:/C:/Users/Administrator/Desktop/logo-dc/logo128.ico</normaloff>:/C:/Users/Administrator/Desktop/logo-dc/logo128.ico</iconset>
+  </property>
+  <property name="toolTipDuration">
+   <number>0</number>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>380</width>
+     <height>770</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>380</width>
+     <height>770</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>380</width>
+     <height>770</height>
+    </size>
+   </property>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderStretchLastSection">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>文件</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>221</red>
+      <green>221</green>
+      <blue>221</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>指令内容</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>221</red>
+      <green>221</green>
+      <blue>221</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>播放时间</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>221</red>
+      <green>221</green>
+      <blue>221</blue>
+     </color>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="statusLabel">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>780</y>
+     <width>155</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>300</width>
+     <height>500</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="toolTipDuration">
+    <number>3</number>
+   </property>
+   <property name="text">
+    <string>DC作品</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ico.qrc"/>
+ </resources>
+ <connections/>
+</ui>

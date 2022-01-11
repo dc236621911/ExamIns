@@ -1,0 +1,16 @@
+debug/data.o
+debug/examinfo.o
+debug/main.o
+debug/dialog.o
+debug/showinfo.o
+debug/gaokao.o
+debug/putong.o
+debug/bofang.o
+debug/mylog.o
+debug/qrc_ico.o
+debug/moc_dialog.o
+debug/moc_examinfo.o
+debug/moc_showinfo.o
+debug/moc_gaokao.o
+debug/moc_putong.o
+debug/moc_bofang.o

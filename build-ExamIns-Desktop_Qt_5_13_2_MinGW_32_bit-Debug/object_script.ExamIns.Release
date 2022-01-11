@@ -1,0 +1,16 @@
+release/data.o
+release/examinfo.o
+release/main.o
+release/dialog.o
+release/showinfo.o
+release/gaokao.o
+release/putong.o
+release/bofang.o
+release/mylog.o
+release/qrc_ico.o
+release/moc_dialog.o
+release/moc_examinfo.o
+release/moc_showinfo.o
+release/moc_gaokao.o
+release/moc_putong.o
+release/moc_bofang.o
